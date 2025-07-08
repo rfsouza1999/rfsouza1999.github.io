@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Sangue - Criar Conta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: #8B0000; text-align: center; font-family: 'Italianno', cursive; font-size: 36px; margin-bottom: 20px;">BANCO DE SANGUE</h1>
+        <h2 style="color: #b22222; text-align: center; font-size: 24px; font-weight: bold; margin-bottom: 24px;">Criar Conta</h2>
+
+        <form>
+            <div class="section-header required-field">Dados de Acesso</div>
+            <input class="input-field" placeholder="NOME DE USUÁRIO">
+            <input class="input-field" type="email" placeholder="EMAIL">
+            <input class="input-field" type="password" placeholder="SENHA">
+            <input class="input-field" type="password" placeholder="CONFIRME A SENHA">
+
+            <div class="section-header required-field">Dados Pessoais</div>
+            <input class="input-field" placeholder="NOME COMPLETO">
+            <input class="input-field" placeholder="CPF">
+            <input class="input-field" placeholder="TELEFONE">
+
+            <div class="section-header required-field">Seu Endereço</div>
+            <input class="input-field" placeholder="CEP">
+            <input class="input-field" placeholder="RUA">
+            <input class="input-field" placeholder="NÚMERO">
+            <input class="input-field" placeholder="BAIRRO">
+            <input class="input-field" placeholder="CIDADE">
+            <input class="input-field" placeholder="ESTADO">
+            <input class="input-field" placeholder="PAÍS">
+            <input class="input-field" placeholder="OBSERVAÇÕES">
+
+            <div class="section-header required-field">Dados Médicos</div>
+            <input class="input-field" placeholder="TIPO SANGUÍNEO">
+            <input class="input-field" placeholder="SEXO">
+            <input class="input-field" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="DATA DE NASCIMENTO">
+            <input class="input-field" type="number" placeholder="PESO (KG)">
+            <input class="input-field" type="text" placeholder="ALTURA (M)">
+
+            <div class="button-group">
+                <button type="submit" class="button">CRIAR CONTA</button>
+                <a href="index.html" class="button button-danger">VOLTAR</a>
+            </div>
+        </form>
+        <p class="signature">~By Rafael</p>
+    </div>
+</body>
+</html>
