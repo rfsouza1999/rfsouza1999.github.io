@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Doador - Banco de Sangue</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container">
+        <h1 id="form-titulo">Cadastrar Novo Doador</h1>
+        <form id="doador-form">
+            <input id="nome_completo" class="input-field" placeholder="NOME COMPLETO" required>
+            <input id="email" type="email" class="input-field" placeholder="EMAIL" required>
+            <input id="cpf" class="input-field" placeholder="CPF" required>
+            <input id="tipo_sanguineo" class="input-field" placeholder="TIPO SANGUÍNEO (Ex: A+)" required>
+
+            <div class="button-group">
+                <button type="submit" class="button">SALVAR</button>
+                <a href="doadores.html" class="button button-danger">CANCELAR</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Verifica se estamos em modo de edição e preenche o formulário
+        document.addEventListener('DOMContentLoaded', preencherFormularioParaEdicao);
+        // Adiciona o listener para o envio do formulário
+        document.getElementById('doador-form').addEventListener('submit', salvarDoador);
+    </script>
+</body>
+</html>

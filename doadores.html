@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Doadores - Banco de Sangue</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container">
+        <h1>Doadores Cadastrados</h1>
+        <a href="criar_doador.html" class="button">Adicionar Novo Doador</a>
+        <table id="doadores-tabela">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome Completo</th>
+                    <th>Email</th>
+                    <th>Tipo Sanguíneo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Quando a página carregar, chama a função para buscar e listar os doadores
+        document.addEventListener('DOMContentLoaded', listarDoadores);
+    </script>
+</body>
+</html>
