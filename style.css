@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #330000;
+}
+
+.container {
+    width: 320px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 36px;
+    color: #8B0000;
+    margin-bottom: 40px;
+}
+
+.input-field {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #f2dede;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+}
+
+.button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ff3333;
+}
+
+.signature {
+    font-family: 'Italianno', cursive;
+    font-size: 22px;
+    color: #8B0000;
+    margin-top: 20px;
+}
+
+.flash-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+    color: #666;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.separator::before {
+    margin-right: 10px;
+}
+
+.separator::after {
+    margin-left: 10px;
+}
+
+.button-group {
+    margin: 20px 0;
+}
+
+.button-success {
+    background-color: #4CAF50;
+}
+
+.button-warning {
+    background-color: #FFC107;
+}
+
+.button-danger {
+    background-color: #990000;
+}
+
+.button-info {
+    background-color: #007BFF;
+}
+
+.button-success:hover {
+    background-color: #3e8e41;
+}
+
+.button-warning:hover {
+    background-color: #e0a800;
+}
+
+.button-danger:hover {
+    background-color: #800000;
+}
+
+.button-info:hover {
+    background-color: #0069d9;
+}
+
+.logout-button {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin: 20px auto 10px;
+    background-color: #990000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.logout-button:hover {
+    background-color: #800000;
+}
