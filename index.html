@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,13 +11,16 @@
 <body>
     <div class="container">
         <h1>BANCO DE SANGUE</h1>
-        <input name="usuario" class="input-field" type="text" id="username" placeholder="Email">
-        <input name="senha" class="input-field" type="password" id="password" placeholder="Senha">
-        <a href="esqueceu.html" class="forgot-password">Esqueceu a senha?</a>
-        <button type="submit" class="button">Entrar</button>
+        <form id="form-login">
+            <input id="login-email" class="input-field" type="email" placeholder="Email" required>
+            <input id="login-senha" class="input-field" type="password" placeholder="Senha" required>
+            <a href="esqueceu.html" class="forgot-password">Esqueceu a senha?</a>
+            <button type="submit" class="button">Entrar</button>
+        </form>
         <div class="separator">ou</div>
         <a href="criar_conta.html" class="button">Criar conta</a>
         <p class="signature">~By Rafael</p>
     </div>
+    <script src="usuarios.js"></script>
 </body>
 </html>
